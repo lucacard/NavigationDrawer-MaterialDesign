@@ -22,7 +22,7 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
     public void onUserInformation() {
         //User information here
         this.mUserName.setText("Rudson Lima brasil modificato");
-        this.mUserEmail.setText("rudsonlivemodificato@kataweb.it");
+        this.mUserEmail.setText("rudsonlivemodificato@modificato.it");
         this.mUserPhoto.setImageResource(R.drawable.ic_rudsonlive);
         this.mUserBackground.setImageResource(R.drawable.ic_user_background);
     }
