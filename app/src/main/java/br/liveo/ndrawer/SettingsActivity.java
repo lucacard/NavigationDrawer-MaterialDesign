@@ -15,7 +15,7 @@ public class SettingsActivity extends ActionBarActivity {
         TextView mTxtTitle = (TextView) findViewById(R.id.txtTitle);
         mTxtTitle.setText(getString(R.string.settings));
 
-        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
