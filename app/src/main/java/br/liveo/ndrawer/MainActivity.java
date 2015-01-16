@@ -25,6 +25,7 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
         this.mUserEmail.setText("rudsonlivemodificato@kataweb.it");
         this.mUserPhoto.setImageResource(R.drawable.ic_rudsonlive);
         this.mUserBackground.setImageResource(R.drawable.ic_user_background);
+        this.setColor("white");
     }
 
     @Override
