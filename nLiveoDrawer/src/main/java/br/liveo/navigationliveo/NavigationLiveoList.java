@@ -49,7 +49,7 @@ public class NavigationLiveoList {
             count = (sparceItensCount != null ? sparceItensCount.get(i, -1) : -1);
 
             if (isHeader && icon > 0){
-                throw new RuntimeException("The value of the icon for a subHeader item should be 0");
+                throw new RuntimeException("The value of the icon for a subHeader item should be 0 ?? ");
             }
 
             if (!isHeader) {
