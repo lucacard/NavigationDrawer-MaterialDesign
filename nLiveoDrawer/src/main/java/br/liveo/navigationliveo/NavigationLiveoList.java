@@ -58,7 +58,7 @@ public class NavigationLiveoList {
                 }
 
                 if (title.trim().equals("")) {
-                    throw new RuntimeException("Enter the item name position " + i);
+                    throw new RuntimeException("Enter the item name position " + i + i);
                 }
             }
 
