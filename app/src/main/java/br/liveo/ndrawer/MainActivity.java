@@ -21,7 +21,7 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
     @Override
     public void onUserInformation() {
         //User information here
-        this.mUserName.setText("Rudson Lima");
+        this.mUserName.setText("Rudson Lima modificato");
         this.mUserEmail.setText("rudsonlive@gmail.com");
         this.mUserPhoto.setImageResource(R.drawable.ic_rudsonlive);
         this.mUserBackground.setImageResource(R.drawable.ic_user_background);
