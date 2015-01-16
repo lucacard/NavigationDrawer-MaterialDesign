@@ -43,6 +43,7 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
         mListNameItem.add(4, getString(R.string.more_markers)); //This item will be a subHeader
         mListNameItem.add(5, getString(R.string.trash));
         mListNameItem.add(6, getString(R.string.spam));
+         mListNameItem.add(7, getString(R.string.spam));
 
         // icons list items
         List<Integer> mListIconItem = new ArrayList<>();
