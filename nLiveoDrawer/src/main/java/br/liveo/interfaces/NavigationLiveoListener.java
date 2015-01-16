@@ -25,4 +25,5 @@ public interface NavigationLiveoListener {
     public void onPrepareOptionsMenuNavigation(Menu menu, int position, boolean visible);
     public void onClickFooterItemNavigation(View v);
     public void onClickUserPhotoNavigation(View v);
+    public void stocazzo();
 }
