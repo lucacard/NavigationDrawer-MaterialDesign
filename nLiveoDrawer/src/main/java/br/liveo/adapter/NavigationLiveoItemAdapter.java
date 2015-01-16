@@ -30,7 +30,7 @@ public class NavigationLiveoItemAdapter {
 		this.title = title;
 		this.icon = icon;
 		this.isHeader = header;
-		this.counter = counter;
+		this.counter = counter+1;
         this.colorSelected = colorSelected;
         this.removeSelector = removeSelector;
 	}
